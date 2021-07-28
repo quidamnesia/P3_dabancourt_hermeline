@@ -1,4 +1,17 @@
+@import "menus/menu.scss";
+
+@font-face {
+    font-family: "Raleway";
+    src: url("./Raleway/Raleway-VariableFont_wght.ttf");
+    font-weight: 100 1000;
+}
+
 body {
-    font-family: 'railway';
-    font-size: 14px;
+    font-family: 'Raleway';
+    font-size: 12px;
+    
+    header {
+        color: black;
+        background-color: white;
+    }
 }
