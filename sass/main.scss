@@ -1,11 +1,13 @@
 @import "menus/menu.scss";
 @import "animations/anim.scss";
+@import "variables.scss";
 
 @font-face {
     font-family: "Raleway";
     src: url("./Raleway/Raleway-VariableFont_wght.ttf");
     font-weight: 100 1000;
 }
+// global
 
 body {
     font-family: 'Raleway';
@@ -34,7 +36,35 @@ p {
 }
     
 header {
-        color: black;
-        background-color: white;
+    font-family: 'raleway';
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .referencement {
+        display: none;
     }
+
+    #logo {
+        width: 163px;
+    }
+
+    .localisation {
+        background-color: $darkgrey;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+
+}
+
+ 
+
+main {
+    background-color: $grey;
+}
 
