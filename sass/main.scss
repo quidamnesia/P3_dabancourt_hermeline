@@ -144,12 +144,14 @@ header {
  
 
 main {
+    border: 2px solid green;
     display: flex;
     flex-direction: column;
     background-color: $grey;
     max-width: 800px;
     
     .cartes {
+        border: 2px solid red;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -157,6 +159,25 @@ main {
         width: auto;
         
     }
+    figure {
+        width: 100%;
+        min-height: 50px;
+    }
+
+    .image {
+        border: 2px solid blue;
+        min-height: 100px;
+        width: auto;
+        overflow: hidden;
+        max-height: 150px;
+    }
+
+    img {
+        max-width: 800px;
+        height: auto;
+        object-fit: cover;
+    }
+    
     figure {
         
     }
